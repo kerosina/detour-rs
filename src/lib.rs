@@ -7,6 +7,7 @@
   all(feature = "nightly", test),
   feature(naked_functions, core_intrinsics, asm)
 )]
+#![feature(tuple_trait)]
 
 //! A cross-platform detour library written in Rust.
 //!
